@@ -1,12 +1,14 @@
 {
   "name": "auto-scroll",
-  "version": "1.0.0",
+  "version": "0.0.15",
   "description": "Scroll between elements flexible",
   "main": "index.js",
   "files": [
     "lib/**/*"
   ],
   "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
     "test": "jest --config jestconfig.json",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
