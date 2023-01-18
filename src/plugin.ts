@@ -18,6 +18,7 @@ export class Plugin {
 
     public init(): void {
         // Add event listener for mouse wheel scroll
+        window.addEventListener('wheel', this.handleScroll);
     }
 
     public destroy(): void {
